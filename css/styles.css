@@ -2,10 +2,11 @@
 
 
 .container1{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    background: url(../img/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: cover;
+    background-position: center;
 
     width: 100%;
     height: 1024px;
@@ -14,6 +15,17 @@
 
 .container2{
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 1024px;
+    background-color: rgb(255, 255, 255);
+}
+
+.container3{
+    display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -21,11 +33,13 @@
     background-color: gray;
 }
 
-.container3{
+.container4{
     width: 100%;
     height: 360px;
     background-color: burlywood;
 }
+
+
 
 .item {
     height: 500px;
